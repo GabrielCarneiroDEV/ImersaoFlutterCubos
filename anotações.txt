@@ -1,0 +1,69 @@
+Para iniciar um projeto em flutter inserir a seguinte linha no terminal:
+
+flutter create nome_do_projeto
+
+o código principal fica em lib -> main.dart
+podemos apagar o arquivo inicializado junto a criação do flutter e criar um novo arquivo com o mesmo nome "main.dart"
+
+
+
+stateful x stateless widget:
+
+-Um widget stateful pode ter seu estado alterado
+ex: um switch
+*interação
+
+- um widget stateless não tem seu estado alterado
+ex: texto   
+*sem interação
+
+
+
+MaterialAPP:
+É uma aplicação que utiliza Material Design.
+
+*cria a base para uma aplicação
+*Disponibiliza componentes comuns de Design
+*Disponibiliza componentes para navegação
+
+
+
+
+
+Iniciando projeto:
+
+usar atalho "stl" para criar uma classe stateless ou stateful
+lembrar de colocar o nome da classe após "class" e importar o 'package:flutter/material.dart';
+
+
+
+
+Material Widget
+
+material widget é responsável por gerenciar clipping e Elevation dos elementos:
+
+clipping: borderRadius, shape, etc.
+Elevation: shadow
+
+
+Column x  Row
+
+column - widget que organiza os componentes de forma vertical
+
+Row - widget que organiza os componentes de forma horizontal
+
+
+Assets
+assets são componentes como imagens, ícones, SVG's que vamos adicionar ao projeto
+
+Image, AssetImage
+Image - widget que exibe uma imagem
+AssetImage - carrega uma imagem do asset
+
+
+Sized Box
+widget que cria uma caixa com altura e largura
+
+
+
+* para carregar imagens precisas criar a pasta assets e dentro dela outras pastas para salvar as imagens em várias resoluções
