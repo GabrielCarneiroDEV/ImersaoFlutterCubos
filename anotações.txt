@@ -67,3 +67,25 @@ widget que cria uma caixa com altura e largura
 
 
 * para carregar imagens precisas criar a pasta assets e dentro dela outras pastas para salvar as imagens em várias resoluções
+
+
+
+
+
+
+Text - widget que exibe textos.
+
+TextStyle - permite formatar texto: font, size, weight
+
+
+FlatButton - widget de botão: permite executar ações ao ser clicado
+
+
+Navigator - componente para navegação de telas.
+-cria uma pilha de Route (páginas/telas)
+- permite manipular essa pilha  
+
+
+MaterialPageRoute
+- faz transição entre as telas
+sobrepõe uma tela em fullscreen
