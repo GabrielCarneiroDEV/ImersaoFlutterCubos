@@ -89,3 +89,54 @@ Navigator - componente para navegação de telas.
 MaterialPageRoute
 - faz transição entre as telas
 sobrepõe uma tela em fullscreen
+
+
+
+Scaffold - implementa layout básico do material:
+-AppBar
+-BottomBar
+-FloatActionButton
+
+
+AppBar - Área no topo da tela:
+
+-leading
+-title
+-actions
+
+
+
+Expaned - widget que preenche o espaço disponível em uma column, row ou flex
+
+ListView - widget de lista com rolagem alinhados linearmente
+
+BoxDecoration - Forma de descrever como desenhar uma caixa.
+- borda 
+- arredondamento
+- sombra
+- cor
+
+BoxShadow - cria sobra para uma caixa
+- cor 
+- SpreadRadius(expansão)
+- BlurRadius (desfocagem)
+- OffSet (Deslocamento)
+
+
+RadioListTile -Radio Button com label. usado para selecionar valores mutuamente exclusivos. (ou seja, quando um é selecionado o outro é deselecionado)
+- value
+- groupValue
+
+Quando value e groupValue são iguais o Radio será selecionado.
+
+
+variaveis - 
+declaração em dart:
+int nomeDaVariavel = 0
+
+
+
+setState() - Informa o framework que o state foi alterado.
+
+-É executado o build novamente
+obs: só existe nos sateful widgets
