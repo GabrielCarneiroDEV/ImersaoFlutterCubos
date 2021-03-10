@@ -140,3 +140,12 @@ setState() - Informa o framework que o state foi alterado.
 
 -É executado o build novamente
 obs: só existe nos sateful widgets
+
+classes:
+É uma descrição que abstrai entidades do mundo real, representadas por objetos:
+
+- Propriedades (variaveis)
+= comportamento (métodos)
+
+Objetos:
+É uma entidade criada a partir de uma classe

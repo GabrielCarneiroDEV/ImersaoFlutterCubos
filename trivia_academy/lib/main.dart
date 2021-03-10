@@ -7,7 +7,7 @@ void main() {
 
 class Trivia extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return MaterialApp(
       home: InitialScreen (),
     );
